@@ -1,96 +1,104 @@
-# WarGame
+Macera Oyunu
 
-1 - Oyunu bitirebilmek için savaş bölgelerindeki tüm düşmanlar temizlendikten sonra bölgeye özel ödülü oyunucun envanterine eklenmelidir. Eğer oyuncu tüm ödülleri toplayıp "Güvenli Eve" dönebilirse oyunu kazanır. Ayrıca ödül kazanılan bölgeye tekrar giriş yapılamaz.
 
+Java ile metin tabanlı bir macera oyunu yapıyoruz.
 
 
-Bölge Ödülleri :
 
+KARAKTERLER
 
+![download](https://user-images.githubusercontent.com/111523448/200489272-d630b57f-0c21-4c0a-a885-8fb2e3cd028e.png)
 
-Mağara => Yemek (Food)
 
 
-Orman => Odun (Firewood)
 
 
-Nehir => Su (Water)
 
 
-2 - Oyuncu bir canavarla karşılaştığında ilk hamleyi kimin yapacağını, %50 şans ile belirlenmesi. (Şuan ki durumda ilk vuran her zaman oyuncu)
+CANAVARLAR
 
+![download](https://user-images.githubusercontent.com/111523448/200489264-3415f04e-ecb7-4c3a-9d28-1b4d6743b008.png)
 
 
-3 - Yeni bir savaş bölgesi eklenmeli. Bu bölgenin amacı yenilen rakiplerden rastgele para, silah veya zırh kazanma ihtimali olması.
 
 
 
-Bölge Adı : Maden
 
+SİLAHLAR
 
-Canavar : Yılan (1-5 Adet)
+![download](https://user-images.githubusercontent.com/111523448/200489269-7dc18b09-ebe1-49e6-8efd-2e73b58f52b8.png)
 
 
-Özellik : Savaş ve Ganimet
 
 
-Eşya : Para, Silah veya Zırh
 
+ZIRHLAR
 
-Yılan Özellikleri :
+![download](https://user-images.githubusercontent.com/111523448/200489259-1dc024f1-8ca2-474e-b3cb-6914c094c8da.png)
 
 
 
-ID : 4
 
 
-HASAR : Rastgele (3 ve 6 arası)
 
 
-SAĞLIK :12
 
+MEKANLAR
 
-PARA : Yok (Onun yerine eşya kazanma ihtimali)
 
+Güvenli Ev
 
-Yenilen bir rakiplerden düşen eşyalar :
 
+Özellik : Can Yenileniyor
 
 
-Silah Kazanma İhtimali : 15%
+Mağara
 
 
-Tüfek Kazanma İhtimali : 20%
+Canavar : Zombi (1-3 Adet)
 
 
-Kılıç Kazanma İhtimali : 30%
+Özellik : Savaş + Ganimet
 
 
-Tabanca Kazanma İhtimali : 50%
+Eşya : Yemek (Food)
 
 
-Zırh Kazanma İhtimali : 15%
+Orman
 
 
-Ağır Zırh Kazanma İhtimali : 20%
+Canavar : Vampir (1-3 Adet)
 
 
-Orta Zırh Kazanma İhtimali : 30%
+Özellik : Savaş + Ganimet
 
 
-Hafif Zırh Kazanma İhtimali : 50%
+Eşya : Odun (Firewood)
 
 
-Para Kazanma İhtimali : 25%
+Nehir
 
 
-10 Para Kazanma İhtimali: 20%
+Canavar : Ayı (1-3 Adet)
 
 
-5 Para Kazanma İhtimali: 30%
+Özellik : Savaş + Ganimet
 
 
-1 Para Kazanma İhtimali: 50%
+Eşya : Su (Water)
 
 
-Hiç birşey kazanamama ihtimali : 45%
+Mağaza
+Özellik : Destekleyici Eşyalar Satın Almak
+
+
+Silah : Tabanca,Kılıç,Tüfek
+
+
+Zırh : Hafif,Orta,Ağır
+
+
+
+Sınıf Diyagramı
+
+![class-diagram](https://user-images.githubusercontent.com/111523448/200489247-218232e3-8aef-47d0-b5bd-be21121de389.jpg)
